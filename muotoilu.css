@@ -1,0 +1,182 @@
+﻿/*kuva-asetukset*/
+body {
+	
+	background-image: url("taustakuva.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+}
+
+img:hover {
+	border-radius:80%;
+	border: 3px inset #990073;
+}
+/*tekstiasetukset*/
+h1 {
+    color: #c3c3c3;
+    margin-left: 20px;
+    font-family: Arial;
+    font-size: 50px;
+}
+
+h2 {
+    color: black;
+    margin-left: 20px;
+    font-family: Arial
+}
+
+h3 {
+	color: #6b1485;
+	margin-left:20px;
+}
+h4 {
+    color: #79ff4d;
+    margin-left: 1100px;
+    
+    
+}
+p {
+	color: black;
+	margin-left:20px;
+	font-family:Arial;
+    font-size:18px;
+}
+
+a {
+    color: #6b1485;
+    margin-left: 20px;
+    font-family: Arial;
+    font: 900;
+    
+}
+
+/*taulukkoasetukset*/
+table#t01 {
+    width: 70%;
+    margin-left: 20px;
+    font-family: Arial;
+}
+table, th, td {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 8px;
+	text-align: middle;
+}
+table#t01 tr:nth-child(even) {
+	background-color:#eee;
+}
+table#t01 tr:nth-child(odd) {
+	background-color:#fff;
+}
+table#t01 th {
+	background-color: #ba50a0;
+	color: black;
+}
+
+
+
+/*painikkeiden asetukset*/
+
+.button2 {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Arial;
+    color: #822682;
+    font-size: 20px;
+    background: #867b8a;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 200px;
+    margin-left: auto;
+}
+
+.button2:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+/*iframe asetukset*/
+iframe {
+    display:block;
+    width: auto;
+    margin-left:20px;
+    border: 0;
+}
+
+
+/*Sivun elementtien asetukset alkaa*/   
+
+.header {
+    text-align: left;
+    background: #7D0979;
+    color: #fff;
+    width: 1260px;
+    margin: 0 0 0 0;
+    border: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.left_col {
+
+text-align: left;
+float: left;
+background: #BF65BC;
+color: #fff;
+width: 200px;
+height: 500px;
+margin: 0 0 0 0;
+border: 0;
+padding: 10px;
+overflow: hidden;
+
+}
+
+.main_col {
+
+text-align: left;
+float: left;
+background: #C2BAC2;
+color: red;
+width: 1040px;
+height: 500px;
+margin: 0 0 0 0;
+border: 0;
+padding: 10px;
+overflow: hidden;
+
+}
+
+.footer {
+    text-align: left;
+    float: left;
+    background: #30062F;
+    color: #fff;
+    width: 1260px;
+    margin: 0 0 0 0;
+    border: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+.wrapper {
+
+text-align: center;
+width: 1500px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+
